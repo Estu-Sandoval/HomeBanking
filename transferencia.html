@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transferencias</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form class="transferencia">
+        <label for="origen">Cuenta Origen</label>
+        <select name="cuenta_origen" id="origen">
+            <option value="" selected hidden>Seleccione de sus cuenta</option>
+        </select>
+        <label for="destino">Cuenta Destino</label>
+        <input type="number" id="destino" min="1" step="1">
+        <label for="importe">Importe En $</label>
+        <input type="number" id="importe" min="0" step="100">
+        <button class="transferir" id="transferir">Transferir</button>
+    </form>
+    <script type="module" src="./transferencia.js"></script>
+</body>
+</html>
