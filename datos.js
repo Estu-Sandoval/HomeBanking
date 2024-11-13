@@ -12,10 +12,12 @@ const datos = {
         new Cuenta(personas[0],750000),
         new Cuenta(personas[0],200000),
         new Cuenta(personas[1],1500000),
+        new Cuenta(personas[1],1500000),
     ],
     usuarios:[
         new Usuario("Estu891","miPerro123",1),
         new Usuario("SaVi65","HolaMundo789",3),
+        new Usuario("jsahdias","HolaMundo789",4),
     ]
 }
 
